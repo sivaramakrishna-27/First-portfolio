@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100&family=Ubuntu:ital,wght@0,700;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1500px;
+    padding: 0 85px;
+    margin: auto;
+}
+
+
+/* navbar styling starts */
+.navbar{
+    /*background-color: crimson;*/
+    position: fixed;
+    padding: 25px 0;
+    width: 100%;
+    font-family: 'Ubuntu','sans-serief';
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    color: crimson;
+    padding: 15px;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .sticky .logo a span {
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display:  inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+/* navbar styling ends */
+
+
+/*menu-btn stylling starts*/
+.menu-btn{
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3ms ease;
+}
+.menu-btn span:hover{
+  color: #ff9d00
+}
+
+/*menu-btn stylling ends*/
+
+
+/* home section styling starts */
+.home{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+
+    font-family: 'Ubuntu','sans-serief';
+}
+.home .max-width{
+    margin: auto 0 auto 20px;
+}
+.home .home-content .text0{
+    font-size: 29px;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.home .home-content .text0 span:hover{
+    color: crimson;
+}
+.home .home-content .text1{
+    font-size: 15px;
+    font-weight: 350;
+}
+.home .home-content .text2{
+    font-size: 25px;
+    font-weight: 450;
+    margin-left: -3px;
+}
+.home .home-content .text3{
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0;
+}
+.home .home-content .text3 span{
+    color: crimson;
+}
+.text4 .skills-menu li a{
+    font-size: 16px;
+    margin-top: 4px;
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+}
+.text5 ul li a{
+    font-size: 16px;
+    margin-top: 2px;
+    color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*home section styling ends */
